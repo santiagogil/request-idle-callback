@@ -1,0 +1,24 @@
+<!--- Provea un resumen general de sus cambios en el título de arriba -->
+
+## Descripción
+<!--- Describa sus cambios en detalle -->
+
+## Motivación y Contexto
+<!--- Por qué es necesario este cambio? Qué problema resuelve? -->
+<!--- Si resuelve un issue abierto, por favor enlácelo aquí. -->
+
+## Capturas de pantalla (si fueran necesarias):
+
+## Tipo de cambios
+<!--- Qué tipo de cambios introduce su código? Ponga una `x` en todas las casillas que corresponda: -->
+- [ ] Bug fix (cambio que no rompe la api existente y resuelve un issue)
+- [ ] Nueva funcionalidad (cambio que no rompe la api existente y agrega funcionalidad)
+- [ ] Cambio en la api (un fix o funcionalidad que modifica la api existente)
+
+## Checklist:
+<!--- Ponga una `x` en todas las casillas que corresponda. -->
+<!--- Si no está segura/o no dude en consultarnos. Estamos para ayudar! -->
+- [ ] Mi código sigue la guía de estilo del proyecto.
+- [ ] Mi cambio requiere modificaciones en la documentación.
+- [ ] He realizado las modificaciones pertinentes en la documentación.
+- [ ] He agregado test que cubren mi modificación.
