@@ -1,0 +1,21 @@
+<!--- Provea un resumen general en el título -->
+
+## Comportamiento esperado
+<!--- Si está describiendo un bug, describa qué comportamiento considera que falló. -->
+<!--- Si está sugiriendo nueva funcionalidad, describa cómo debería comportarse. -->
+
+## Comportamiento actual
+<!--- Si está describiendo un bug, detalle qué sucede en lugar del comportamiento esperado. -->
+<!--- Si está sugiriendo una nueva funcionalidad, detalle como se diferencia de la actual. -->
+
+## Solución posible
+<!--- No obligatorio. Sugerencias para la implementación. -->
+
+## Pasos para reproducir (sólo para bugs)
+<!--- Provea una descripción, o mejor aún, un test que reproduzca la falla. -->
+
+## Contexto
+<!--- Algo de información sobre su caso de uso, nos ayuda a brindar soluciones más significativas. -->
+
+## Entorno
+<!--- Por favor, incluya todo detalle que pueda resultar significativo. Sistema operativo, navegador, etc. -->
