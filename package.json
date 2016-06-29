@@ -25,5 +25,10 @@
     "semantic-release": "^4.3.5",
     "standard": "^7.1.2",
     "tape": "^4.6.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
