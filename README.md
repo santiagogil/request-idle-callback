@@ -1,35 +1,34 @@
-# Ttítulo
-<!--  Breve descripción  -->
+# Request Idle Callback Shim
 
-## Instalación
-<!--  Por ejemplo npm install titulo  -->
+For more information refer to [Using requestIdleCallback](https://developers.google.com/web/updates/2015/08/using-requestidlecallback)
 
-## Ejemplo
-<!--  Un caso breve y práctico de uso en código  -->
+## Install
+`npm install request-idle-callback`
+
+## Example
 
 ``` js
-<!--  Código de ejemplo -->
+var requestIdleCallback = require('request-idle-callback')
+// Executes myNonEssentialWork duting idle time on each frame or fallbacks to using setTimeout to run at most 50ms per frame
+requestIdleCallback(myNonEssentialWork);
+
+function myNonEssentialWork (deadline) {
+  while (deadline.timeRemaining() > 0)
+    doWorkIfNeeded();
+}
 ```
 
 ## API
-<!--  Detalle de cada uno de los métodos con parámetros -->
 
-### titulo.metodo(parámetro[, parámetro_opcional][, callback])
+### requestIdleCallback(callback(deadline))
 
-Breve descripción
+`deadline` is an object containing: 
 
-``` js
-<!--  Código de ejemplo -->
-```
+* `deadline.didTimeout` boolean indicating if it is still time to deadline.
+* `deadline.timeRemaining` function that returns remaining time.
 
 ## Tests
-<!-- Breve descripción de cómo correr la suit de tests  -->
-
-## Contribuyendo
-<!--  Referencia a CONTRIBUTING.md  -->
-
-## Código de conducta
-<!-- Referencia a CODE_OF_CONDUCT.md -->
+`node tests.js`
 
 ## Licencia
-<!--  Referencia a LICENSE.md  -->
+MIT
