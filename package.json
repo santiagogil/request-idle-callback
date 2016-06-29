@@ -1,0 +1,29 @@
+{
+  "name": "request-idle-callback",
+  "description": "Browser shim for window.requestIdleCallback",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santiagogil/request-idle-callback.git"
+  },
+  "keywords": [
+    "perf",
+    "yank"
+  ],
+  "author": "Santiago Gil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santiagogil/request-idle-callback/issues"
+  },
+  "homepage": "https://github.com/santiagogil/request-idle-callback#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.1.6",
+    "semantic-release": "^4.3.5",
+    "standard": "^7.1.2",
+    "tape": "^4.6.0"
+  }
+}
