@@ -1,5 +1,7 @@
 # Request Idle Callback Shim
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/santiagogil/request-idle-callback.svg)](https://greenkeeper.io/)
+
 For more information refer to [Using requestIdleCallback](https://developers.google.com/web/updates/2015/08/using-requestidlecallback)
 
 ## Install

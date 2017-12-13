@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/santiagogil/request-idle-callback#readme",
   "devDependencies": {
-    "cz-conventional-changelog": "^1.1.6",
-    "semantic-release": "^4.3.5",
-    "standard": "^7.1.2",
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^8.2.0",
+    "standard": "^10.0.3",
     "tape": "^4.6.0"
   },
   "config": {
